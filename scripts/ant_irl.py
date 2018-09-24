@@ -1,3 +1,5 @@
+from .fixpath import *
+
 import tensorflow as tf
 
 from sandbox.rocky.tf.policies.gaussian_mlp_policy import GaussianMLPPolicy

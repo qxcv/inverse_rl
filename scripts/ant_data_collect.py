@@ -1,3 +1,5 @@
+from .fixpath import *
+
 import tensorflow as tf
 
 from inverse_rl.algos.trpo import TRPO
